@@ -2,12 +2,11 @@ import React from 'react';
 import './style.css';
 
 import Footer from '../../components/footer';
+import Header from '../../components/header';
 
 const Home = () => (
   <div className="home-body">
-    <header>
-      <p>Header</p>
-    </header>
+    <Header />
     <main>
       <p>Body</p>
     </main>
