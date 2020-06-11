@@ -1,6 +1,18 @@
-import React from 'react'
-import './style.css'
+import React from 'react';
+import './style.css';
 
-const Home = () => <h1>Hello World</h1>
+import Footer from '../../components/footer';
 
-export default Home
+const Home = () => (
+  <div className="home-body">
+    <header>
+      <p>Header</p>
+    </header>
+    <main>
+      <p>Body</p>
+    </main>
+    <Footer />
+  </div>
+);
+
+export default Home;
