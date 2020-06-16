@@ -3,13 +3,12 @@ import './style.css';
 
 import Footer from '../../components/footer';
 import Header from '../../components/header';
+import Body from '../../components/body';
 
 const Home = () => (
   <div className="home-body">
     <Header />
-    <main>
-      <p>Body</p>
-    </main>
+    <Body />
     <Footer />
   </div>
 );
